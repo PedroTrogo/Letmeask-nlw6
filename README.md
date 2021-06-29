@@ -49,7 +49,7 @@ Para utilizar o serviço, os usuários necessitam ter uma conta no google (gmail
 <strong style="font: 700 26px Roboto, sans-serif;">Instalação</strong>
 
 ```bash
-# Abra 0 terminal e copie o repositório com o comando
+# Abra o terminal e copie o repositório com o comando
 git clone https://github.com/PedroTrogo/Letmeask-nlw6.git
 # ou use a opção de download.
 
