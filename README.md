@@ -68,7 +68,8 @@ yarn start / npm start
 <br>
 
 
-##Licença
+<strong style="font: 700 26px Roboto, sans-serif;">Licença</strong>
+
 <br>
 <a href="https://opensource.org/licenses/MIT">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-6E40C9?style=flat-square">
