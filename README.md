@@ -30,7 +30,7 @@
 <h2 align="center" style="font: 700 28px Roboto, sans-serif;">Sobre o Letmeask</span></h2>
 
 <p style='text-align: justify; font: 400 18px Roboto, sans-serif; line-height: 30px'>Uma aplicação criada para facilitar a visualização e gerenciamento de um grande fluxo de perguntas entre uma figura central e aqueles que desejam esclarecer suas dúvidas. 
-Para utilizar o serviço, os usuário necessitam ter uma conta no google (gmail).</p>
+Para utilizar o serviço, os usuários necessitam ter uma conta no google (gmail).</p>
 
 <br>
 
