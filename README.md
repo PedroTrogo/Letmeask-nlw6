@@ -1,4 +1,4 @@
-#Letmeask
+<h1>Letmeask</h1>
 
 <p>
 	<img src="https://img.shields.io/badge/made%20by-Pedro%20Trogo-835AFD">
@@ -69,6 +69,7 @@ yarn start / npm start
 
 
 ##Licença
+<br>
 <a href="https://opensource.org/licenses/MIT">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-6E40C9?style=flat-square">
 </a>
