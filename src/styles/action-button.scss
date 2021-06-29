@@ -1,0 +1,23 @@
+.action-icon{
+	background-color: transparent;
+	transition: filter 0.2s;
+	
+	&.activated {
+		svg path{
+			stroke: #835afd;
+		}
+
+		svg circle {
+			stroke: #835afd;
+		}
+	}
+
+	&:disabled {
+		cursor: not-allowed;
+	}
+
+	&:not(:disabled):hover {
+		filter: brightness(1.4);
+	}
+}
+				

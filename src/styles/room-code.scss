@@ -1,0 +1,34 @@
+#room-code-container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	max-width: 300px;
+
+	border: 1px solid #835AFD;
+	border-radius: 8px;
+
+	overflow: hidden;
+	white-space: nowrap;
+	padding-right: 16px;
+
+	button {
+		height: 100%;
+
+		padding: 10px 15px;
+		margin-right: 10px;
+
+		background-color: #835AFD;
+	}
+
+	span {
+		font-size: 14px;
+		font-weight: 500;	
+	}
+
+	transition: filter 0.2s;
+		
+	:hover {
+		filter: brightness(0.8);
+	}
+	
+}

@@ -1,0 +1,153 @@
+#room-container {
+	header {
+		max-width: 1120px;
+		margin: 0 auto;
+
+		display: flex;
+		justify-content: space-between;
+
+		margin: 0 auto;
+		padding: 24px 160px;
+
+		> img {
+			max-width: 100px;
+		}
+
+		section {
+			display: flex;
+			gap: 16px;
+
+			.end-room-btn{
+				border: 1px solid #835AFD;
+				border-radius: 8px;
+		
+				background-color: #f8f8f8;
+				color: #835AFD;
+				font-size: 14px;
+				font-weight: 500;
+		
+				padding: 0 24px;
+
+				transition: filter 0.2s;
+
+				&:hover {
+					filter: brightness(0.95);
+				}
+			}
+		}
+	}
+
+	hr {
+		border-top: 1px solid #E2E2E2;
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+		max-width: 800px;
+		height: 100%;
+
+		margin: 0 auto;
+
+		.room-title {
+			display: flex;
+			align-items: center;
+			padding: 64px 0 24px;
+
+			h1 {
+				font: 700 24px 'Poppins', sans-serif;
+			}
+	
+			.questions-count-tag {
+				padding: 8px 16px;
+				margin-left: 16px;
+				border-radius: 50px;
+
+				background-color: #E559F9;
+				color: #fff;
+
+				font-size: 14px;
+				font-weight: 500;
+			}
+		}
+
+		form {
+			textarea {
+				height: 133px;
+				width: 100%;
+				padding: 16px;
+	
+				box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
+				border: 0;
+				border-radius: 8px;
+
+				resize: vertical;
+	
+			}
+
+			.form-footer {
+				display: flex;
+				flex-wrap: wrap;
+
+				justify-content: space-between;
+				align-items: center;
+
+				margin-top: 16px;
+
+				>span {
+					font-size: 14px;
+					font-weight: 500;
+					color: #737380;
+
+					button {
+						font-size: 14px;
+						font-weight: 500;
+
+						text-decoration: underline;
+						background-color: transparent;
+						color: #835AFD;
+					}
+				}
+
+				.user-info {
+					display: flex;
+					align-items: center;
+					gap: 16px;
+
+					>img { 
+						width: 32px;
+						border-radius: 1000px;
+					}
+
+					span {
+						font-size: 14px;
+						font-weight: 500;
+					}
+				}
+			}
+	
+		}
+
+		.empty-questions-placeholder {
+			// flex-direction: column;
+			max-width: 300px;
+			margin: auto;
+
+			text-align: center;
+
+			>img {
+				align-self: center;
+			}
+		}
+	}
+
+	.questions-list {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+
+		margin-top: 32px;
+
+		overflow-y: auto;
+	}
+}
