@@ -5,8 +5,8 @@ import App from './App';
 import './services/firebase';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Component>
     <App />
-  </React.StrictMode>,
+  </React.Component>,
   document.getElementById('root')
 );
